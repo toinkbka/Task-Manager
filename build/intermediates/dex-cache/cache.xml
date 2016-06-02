@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\LoSha\TaskManager63\taskManager6\libs\RootTools.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="16b2d49a7359c9ddbfcb1bc66f9c342c502e821b">
+        <dex dex="E:\LoSha\TaskManager63\taskManager6\build\intermediates\pre-dexed\debug\RootTools-ef6b61914aa14c3a3ce62c481ad3a7a15fdf33d5.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Menu Strings -->
+    <string name="ui_menu_service">Service</string>
+    <string name="ui_menu_search">Search</string>
+    <string name="ui_menu_setting">Setting</string>
+    <string name="ui_menu_traffic">TrafficStats</string>
+    <string name="ui_menu_add">Add</string>
+    <string name="ui_menu_quit">Quit</string>
+    <string name="ui_menu_show_disable_list">Show disabled Apps</string>
+    <string name="ui_menu_feedback">Feedback</string>
+    <string name="ui_menu_about">About</string>
+    <string name="ui_menu_share">Share</string>
+    <string name="saverule">Save Rule</string>
+    <string name="enableFW">Enable FireWall</string>
+    <string name="bin_installed">Binary is installed</string>
+    <string name="loading">Loading Apps</string>
+    <string name="wait">Please Wait</string>
+
+    <string name="app_name">TaskManager</string>
+    <string name="all_list_en">Danh sách tiến trình</string>
+    <string name="ignore_list_en">Danh sách loại trừ</string>
+    <string name="kill_list_en">Danh sách tắt</string>
+    <string name="selected_count">%1$s selected</string>
+    <string-array name="sp1">
+        <item >red</item>
+        <item >blue</item>
+    </string-array>
+    <string-array name="sp1_en">
+        <item >Danh sách tiến trình</item>
+        <item >Danh sách loại trừ</item>
+        <item >Danh sách tắt</item>
+    </string-array>
+        <string name="option">Copyright Eo Dong HUST</string>
+
+    <string-array name="time">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minutes</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+
+    <string-array name="time_value">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>600000</item>
+    </string-array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgWifi"
+        android:src="@mipmap/wifi_ex"
+        android:layout_alignTop="@+id/tv_namewifi"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wifi name"
+        android:id="@+id/tv_namewifi"
+        android:textSize="25dp"
+        android:background="#ffffff"
+        android:textColor="#FF0000"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="strength signal"
+        android:id="@+id/tv_signal"
+        android:layout_below="@+id/tv_namewifi"
+        android:layout_alignLeft="@+id/tv_namewifi"
+        android:layout_alignStart="@+id/tv_namewifi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/tv_scan"
+        android:layout_marginTop="29dp"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/tv_signal"
+        android:layout_alignLeft="@+id/tv_signal"
+        android:layout_alignStart="@+id/tv_signal" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#0000EE"
+        android:layout_below="@+id/tv_scan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Detect Wifi Signal"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/E:/LoSha/TaskManager63/taskManager6/src/main/res/layout/activity_detectnet.xml -->

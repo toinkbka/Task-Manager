@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_activated="true" android:drawable="@android:color/holo_green_light" />
+    <item android:drawable="@android:color/transparent" />
+
+</selector><!-- From: file:/E:/LoSha/TaskManager63/taskManager6/src/main/res/drawable/item_bg.xml -->

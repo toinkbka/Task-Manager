@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context="main.hut.DisableTaskActivity">
+<TextView
+    android:text="Disabled Apps"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/list_disabled"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>
+<!-- From: file:/E:/LoSha/TaskManager63/taskManager6/src/main/res/layout/activity_disable_task.xml -->

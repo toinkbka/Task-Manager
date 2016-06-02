@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/killProcess"
+        android:title="Kill Process"
+        android:showAsAction="collapseActionView"
+        android:orderInCategory="10"
+        tools:ignore="AppCompatResource" />
+    <item android:id="@+id/removeAutoKill"
+        android:title="Remove from Auto Kill List"
+        android:showAsAction="collapseActionView"
+        android:orderInCategory="11"
+        tools:ignore="AppCompatResource" />
+</menu><!-- From: file:/E:/LoSha/TaskManager63/taskManager6/src/main/res/menu/menu_autokill.xml -->

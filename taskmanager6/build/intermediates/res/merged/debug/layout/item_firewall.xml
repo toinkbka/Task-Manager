@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="4dp" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/itemicon"
+        android:layout_width="60dp"
+        android:layout_height="60dp" >
+    </ImageView>
+
+    <CheckBox
+        android:id="@+id/itemcheck_wifi"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:padding="0px" >
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/itemcheck_3g"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:padding="0px" >
+    </CheckBox>
+
+    <TextView
+        android:id="@+id/itemtext"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dip"
+        android:inputType="textMultiLine"
+        android:text="uid:packages"
+        android:textStyle="bold">
+    </TextView>
+
+</LinearLayout>
+</android.support.v7.widget.CardView><!-- From: file:/E:/LoSha/TaskManager63/taskManager6/src/main/res/layout/item_firewall.xml -->
